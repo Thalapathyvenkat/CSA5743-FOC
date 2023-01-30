@@ -1,0 +1,14 @@
+echo "enter a string "
+read a
+echo "enter another string "
+read b
+a+=$b
+echo "concatenate string is "$a
+n=${#a}
+echo"$n"
+
+OUTPUT:
+enter a string:this is 
+enter another string:a bag
+concentrated string is this is a bag
+Length of string : 10
