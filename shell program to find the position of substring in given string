@@ -1,0 +1,16 @@
+echo "enter  a string "
+read str
+echo "enter a substring"
+read  substr
+prefix=${str%%$substr}
+index=${#prefix}
+if[{idex-eq ${#str} ]]
+then
+echo "substring is not present in string "
+else
+echo "index of substring in string is :$index"
+fi
+OUTPUT:
+enter  a string : she is beautiful
+enter a substring:very good
+substring is not present in string
