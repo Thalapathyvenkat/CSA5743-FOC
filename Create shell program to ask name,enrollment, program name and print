@@ -1,0 +1,6 @@
+echo "Enter your name "
+read $name
+echo "Enter your program name :"
+read $prg
+echo "Enter your enrollment number :"
+read $en
